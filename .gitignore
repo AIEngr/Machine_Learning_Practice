@@ -10,8 +10,14 @@ ENV/
 .venv/
 
 # PyCharm
+# .idea folder
 .idea/
-*.iml
+# Except for these specific files
+!/.idea/modules.xml
+!/.idea/vcs.xml
+!/.idea/encodings.xml
+!/.idea/misc.xml
+# Add other shareable .idea files as needed   
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
